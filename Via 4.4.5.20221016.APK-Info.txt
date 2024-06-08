@@ -1,0 +1,65 @@
+Detailed information:
+App Name: Via
+Package: mark.via
+Version: 4.4.5 (20221016)
+Minimal Android: 4.0 (Ice Cream Sandwich)
+Target Android: ?? (未知)
+Maximal Android: 
+Support: Android
+OpenGL ES: 1.0
+Textures: 
+Screens: small,normal,large,xlarge
+Supported CPU: 
+Supported DPI: 120,160,240,320,480,640,65534,any
+File Size: 1 MB
+MD5: 79414E99A39C4D2326AF27F44337849B
+SHA-1: 2680A2DD703AE689BD3F319013A59472AA5FE7A1
+Signature SHA-256: 3df7f89d3b8d1315f05710c914fccbcf3a4e24980afddccb8dcebde90836a390
+Signature SHA-1: af5d11b1703127167e23b45fa706f0dd9865499b
+Signature MD5: 9830874658327c15600f6e4ea939c324
+Signature DN: CN=Various Tu, L=����, ST=����, C=CN
+Email: 
+Developer (CN): Various Tu
+Organization (O): 
+Organizational unit (OU): 
+Locality (L): ����
+Country (C): CN
+State/city (ST): ����
+App Permissions count: 15
+App Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CAMERA
+android.permission.FOREGROUND_SERVICE
+android.permission.INTERNET
+android.permission.POST_NOTIFICATIONS
+android.permission.QUERY_ALL_PACKAGES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+com.bbk.launcher2.permission.READ_SETTINGS
+mark.via.permission.BROADCAST
+Features:
+- android.hardware.camera
+- android.hardware.camera.any
+- android.hardware.camera.autofocus
+- android.hardware.camera.flash
+- android.hardware.camera.front
+- android.hardware.location
+- android.hardware.location.gps
+- android.hardware.screen.landscape
+- android.hardware.touchscreen
+- android.hardware.wifi
+@ application: label='Via' icon='r/w/ic_launcher.xml'
+@ launchable-activity: name='mark.via.Shell'  label='Via' icon=''
+@ meta-data: name='android.webkit.WebView.MetricsOptOut' value='-1'
+@ meta-data: name='android.max_aspect' value='0x40200000' // 2.5
+@ meta-data: name='EasyGoClient' value='0'
+@ provides-component: 'search'
+@ main
+@ other-activities
+@ other-receivers
+@ other-services
